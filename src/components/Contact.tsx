@@ -36,15 +36,7 @@ const Contact = () => {
           </a>
         </div>
 
-        <div className="bg-gradient-to-r from-alpha-black to-alpha-dark rounded-2xl p-8 border border-alpha-blue/20">
-          <div className="math-formula text-2xl text-alpha-yellow mb-4">
-            lim(curiosity → ∞) collaboration = breakthrough
-          </div>
-          <p className="text-alpha-chalk">
-            Whether you want to discuss mathematical concepts, collaborate on research, 
-            or explore new educational approaches, I'm always excited to connect with fellow mathematics enthusiasts.
-          </p>
-        </div>
+        
       </div>
     </section>;
 };

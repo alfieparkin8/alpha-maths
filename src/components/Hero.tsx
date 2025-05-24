@@ -1,4 +1,3 @@
-
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
@@ -6,14 +5,15 @@ const Hero = () => {
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Mathematical Formulas Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        className="absolute inset-0 bg-cover bg-left-top bg-no-repeat opacity-40 scale-110 -translate-x-4 -translate-y-4"
         style={{
-          backgroundImage: 'url(/lovable-uploads/d2c2a388-23f7-4190-83d9-1ebe6503cf91.png)'
+          backgroundImage: 'url(/lovable-uploads/d2c2a388-23f7-4190-83d9-1ebe6503cf91.png)',
+          backgroundPosition: '20% 30%'
         }}
       />
       
       {/* Dark overlay to ensure text readability */}
-      <div className="absolute inset-0 bg-alpha-black/60" />
+      <div className="absolute inset-0 bg-alpha-black/40" />
 
       <div className="text-center z-10 max-w-4xl mx-auto px-4">
         <div className="animate-fade-in">

@@ -16,7 +16,7 @@ const Hero = () => {
           ∂f/∂x
         </div>
         <div className="absolute bottom-20 right-10 math-formula text-3xl animate-float text-alpha-yellow" style={{ animationDelay: '0.5s' }}>
-          lim_{x→∞}
+          lim(x→∞)
         </div>
       </div>
 

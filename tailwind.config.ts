@@ -67,10 +67,17 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				'alpha-navy': '#0f172a',
-				'alpha-blue': '#1e40af',
-				'alpha-gold': '#f59e0b',
-				'alpha-purple': '#7c3aed',
+				// Blackboard theme colors
+				'alpha-black': '#000000',
+				'alpha-dark': '#0a0a0a',
+				'alpha-white': '#ffffff',
+				'alpha-chalk': '#f5f5f5',
+				'alpha-red': '#ff4444',
+				'alpha-blue': '#4488ff',
+				'alpha-green': '#44ff44',
+				'alpha-yellow': '#ffff44',
+				'alpha-purple': '#bb44ff',
+				'alpha-orange': '#ff8844',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

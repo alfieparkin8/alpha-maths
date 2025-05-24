@@ -18,9 +18,11 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-playfair font-bold text-alpha-blue">
-              α<span className="text-alpha-white ml-1">Maths</span>
-            </div>
+            <img 
+              src="/lovable-uploads/31647957-7626-41eb-b8ae-c19cac93077a.png" 
+              alt="Alpha Maths Logo" 
+              className="h-10 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}

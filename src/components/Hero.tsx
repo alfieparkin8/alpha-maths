@@ -4,21 +4,16 @@ import { useEffect, useState } from 'react';
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      {/* Background Mathematical Formulas */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 left-10 math-formula text-6xl animate-float text-alpha-blue">
-          ∫ f(x)dx
-        </div>
-        <div className="absolute top-40 right-20 math-formula text-4xl animate-float text-alpha-green" style={{ animationDelay: '1s' }}>
-          Σₙ₌₁^∞
-        </div>
-        <div className="absolute bottom-40 left-20 math-formula text-5xl animate-float text-alpha-red" style={{ animationDelay: '2s' }}>
-          ∂f/∂x
-        </div>
-        <div className="absolute bottom-20 right-10 math-formula text-3xl animate-float text-alpha-yellow" style={{ animationDelay: '0.5s' }}>
-          lim(x→∞)
-        </div>
-      </div>
+      {/* Background Mathematical Formulas Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
+        style={{
+          backgroundImage: 'url(/lovable-uploads/d2c2a388-23f7-4190-83d9-1ebe6503cf91.png)'
+        }}
+      />
+      
+      {/* Dark overlay to ensure text readability */}
+      <div className="absolute inset-0 bg-alpha-black/60" />
 
       <div className="text-center z-10 max-w-4xl mx-auto px-4">
         <div className="animate-fade-in">

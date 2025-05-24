@@ -6,8 +6,8 @@ const Hero = () => {
   
   const formulas = [
     "e^(iπ) + 1 = 0",
-    "∫_{-∞}^∞ e^(-x²) dx = √π",
-    "∑_{n=1}^∞ 1/n² = π²/6",
+    "∫₋∞^∞ e^(-x²) dx = √π",
+    "∑ₙ₌₁^∞ 1/n² = π²/6",
     "F = G(m₁m₂)/r²",
     "∇ × E = -∂B/∂t"
   ];
@@ -27,13 +27,13 @@ const Hero = () => {
           ∫ f(x)dx
         </div>
         <div className="absolute top-40 right-20 math-formula text-4xl animate-float" style={{ animationDelay: '1s' }}>
-          ∑_{n=1}^∞
+          ∑ₙ₌₁^∞
         </div>
         <div className="absolute bottom-40 left-20 math-formula text-5xl animate-float" style={{ animationDelay: '2s' }}>
           ∂f/∂x
         </div>
         <div className="absolute bottom-20 right-10 math-formula text-3xl animate-float" style={{ animationDelay: '0.5s' }}>
-          lim_{x→∞}
+          lim₍ₓ→∞₎
         </div>
       </div>
 

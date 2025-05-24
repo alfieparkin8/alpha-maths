@@ -2,23 +2,6 @@
 import { useEffect, useState } from 'react';
 
 const Hero = () => {
-  const [currentFormula, setCurrentFormula] = useState(0);
-  
-  const formulas = [
-    "e^(iπ) + 1 = 0",
-    "∫₋∞^∞ e^(-x²) dx = √π",
-    "∑ₙ₌₁^∞ 1/n² = π²/6",
-    "F = G(m₁m₂)/r²",
-    "∇ × E = -∂B/∂t"
-  ];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentFormula((prev) => (prev + 1) % formulas.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background Mathematical Formulas */}
@@ -42,12 +25,6 @@ const Hero = () => {
           <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-alpha-gold to-alpha-purple bg-clip-text text-transparent">
             Alpha Maths
           </h1>
-          
-          <div className="mb-8 h-20 flex items-center justify-center">
-            <p className="text-2xl md:text-3xl math-formula text-alpha-gold transition-all duration-500">
-              {formulas[currentFormula]}
-            </p>
-          </div>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-12 leading-relaxed">
             Exploring the elegance and beauty of mathematics through 

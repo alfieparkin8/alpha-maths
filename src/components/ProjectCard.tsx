@@ -8,10 +8,9 @@ interface ProjectCardProps {
   technologies: string[];
   liveUrl?: string;
   githubUrl?: string;
-  formula?: string;
 }
 
-const ProjectCard = ({ title, description, image, technologies, liveUrl, githubUrl, formula }: ProjectCardProps) => {
+const ProjectCard = ({ title, description, image, technologies, liveUrl, githubUrl }: ProjectCardProps) => {
   return (
     <div className="bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 group">
       <div className="relative overflow-hidden">
@@ -20,11 +19,6 @@ const ProjectCard = ({ title, description, image, technologies, liveUrl, githubU
           alt={title}
           className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-300"
         />
-        {formula && (
-          <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <p className="math-formula text-alpha-gold text-2xl">{formula}</p>
-          </div>
-        )}
       </div>
       
       <div className="p-6">
